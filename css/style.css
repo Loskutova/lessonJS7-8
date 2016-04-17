@@ -1,0 +1,115 @@
+*{
+		margin: 0;
+		padding: 0;
+	}
+
+body{
+	margin: 0 ;
+    padding: 0;
+    
+}
+
+.tabs{
+position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 550px;
+	border:1px solid black;
+	border-radius: 5px;
+}
+
+li{
+	
+	margin: 3px 3px 0px 3px;
+	padding:7px;
+	border-radius: 3px;
+  	background: lightgrey;
+	float: left;
+	list-style: none;
+}
+
+li a{
+	color:black;
+	text-decoration: none;
+}
+ 
+
+
+li a:focus{
+	color:black;
+}
+
+.tabs_content{
+
+	      display: none;
+}
+
+.tabs_content.active{
+	       margin: 30px 20px;
+	border-top: 1px solid white; 
+	display: block;
+	background: white;
+}
+
+ul {
+	    width: 550px;
+    background: grey;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+ .active{
+   background: white;  	
+  }
+
+ .tabs_content{
+ 	margin: 3px;
+ 	float: left;
+ 	display: none;
+ 	font-size: 13px;
+ 
+ }
+
+ .tabs_content:active{
+ 	margin: 3px;
+ 	font-size: 13px;
+ 	display: block;
+ }
+
+
+
+
+
+form{
+    position: absolute;
+    top: 300px;
+    left: 360px;
+    background: lightgrey;
+    width: 600px;
+    padding: 15px;
+    
+}
+.help{
+  padding: 2px 5px;
+  background: white;
+  border-radius: 5px;
+  display: none;
+  width: 250px;
+  border:1px solid grey;
+
+}
+label{
+  width: 100px;
+  padding: 10px;
+  display: inline-block;
+  
+}
+.button{
+  display: inline-block;
+  border-radius:5px;
+  padding: 5px;
+  margin: 5px 5px;
+  background: white;
+  border: 1px solid grey;
+}
